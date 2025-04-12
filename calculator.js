@@ -106,7 +106,7 @@ Array.from(buttonElems).forEach((elem) => {
 
 function setOperator(operator) {
     lastOperator = operator;
-    computedValue = workingValue;
+    computedValue = workingValue;  // this isn't right after you press equals
     workingValue = 0;
     displayComputedValue();
 }
